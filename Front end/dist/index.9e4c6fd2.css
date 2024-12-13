@@ -1,0 +1,82 @@
+.header {
+  background-color: #ff0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.todo-body {
+  background-color: #0ff;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+}
+
+#inputBox {
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  transition: border-color .3s;
+}
+
+#inputBox:focus {
+  border-color: #007bff;
+}
+
+#addBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+}
+
+#addBtn:hover {
+  background-color: #0056b3;
+}
+
+.todos {
+  background-color: #ccc;
+  border-radius: 4px;
+  width: 90%;
+  height: 70vh;
+  margin-top: 20px;
+}
+
+.todo-list {
+  background-color: #c0bcbc;
+  justify-content: space-between;
+  display: flex;
+}
+
+.buttons {
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  display: flex;
+}
+
+#task {
+  text-align: left;
+  margin: 10px;
+}
+
+.task-mark-div {
+  width: 70%;
+  display: flex;
+}
+
+.todo-container {
+  width: 50%;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
